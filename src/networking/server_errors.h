@@ -1,0 +1,22 @@
+#pragma once
+
+enum EServerError
+{
+	EServerError_InvalidClientIDAddressCombination,
+	EServerError_PlayerAlreadyJoinedGame,
+	EServerError_NoGameFoundForPlayer,
+	EServerError_GameNotActive,
+	EServerError_GameAlreadyStarted,
+	EServerError_ShipPlacementNotDone,
+	EServerError_ShipPlacementInvalid,
+	EServerError_ShipAlreadyPlaced,
+	EServerError_InvalidShip,
+	EServerError_ShipRemovalInvalid,
+	EServerError_ShipPlacementAlreadyDone,
+	EServerError_PlayedBeforeYourTurn,
+	EServerError_ConnectionClosedByServer,
+	EServerError_ServerShutDown,
+	EServerError_UnknownCommand,
+
+	EServerError_GeneralError
+};

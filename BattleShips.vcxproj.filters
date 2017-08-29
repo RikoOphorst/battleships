@@ -1,0 +1,934 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{cc06cf8b-a0e8-4b29-8341-439385390d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{7cd2cc5b-efc3-4adf-900a-20f3779ae803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{fd3bdf90-0bf9-4d8a-ae7d-24d4af250a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\glad">
+      <UniqueIdentifier>{617a328d-0a5c-4d0a-bc73-cceff7fa6c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\stb">
+      <UniqueIdentifier>{959b8b19-bfdb-44b4-a219-fd762792e6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\utf8">
+      <UniqueIdentifier>{b7fce532-942c-46bd-89ff-dc3aa2f5cc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\utf8\utf8">
+      <UniqueIdentifier>{3e9311fb-0f5b-44c0-9406-a1345aa62191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\glfw">
+      <UniqueIdentifier>{c6c32fc0-a25f-4836-a97e-e12c2a7e3b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\shaders">
+      <UniqueIdentifier>{5599925e-4aac-4655-bd1d-d97bc36e0eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{93c19b25-deed-4baf-9418-17c7fc8d9c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory\smart_ptrs">
+      <UniqueIdentifier>{870ed14f-7b78-4145-b197-08e51fc73a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{286acc6b-b6c2-45bd-a1d6-484553ba0549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameplay">
+      <UniqueIdentifier>{35016905-1826-4040-89e8-c7245fa3cb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\postprocessing">
+      <UniqueIdentifier>{fefced93-9cd1-4cba-b6a4-4d7c06da633b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="networking">
+      <UniqueIdentifier>{76791e61-b78f-48e9-b2b3-4b4ad60dff5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="networking\raknet">
+      <UniqueIdentifier>{b87affc3-42c7-4dd2-8f90-9e42caf1ea6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\tinyobjloader">
+      <UniqueIdentifier>{a91af309-2774-409c-a454-c161ef4d2895}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\graphics\glad\glad.h">
+      <Filter>graphics\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\glad\khrplatform.h">
+      <Filter>graphics\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_truetype.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_voxel_render.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stretchy_buffer.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_c_lexer.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_divide.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_dxt.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_easy_font.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_herringbone_wang_tile.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_image.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_image_resize.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_image_write.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_leakcheck.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_perlin.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_rect_pack.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_textedit.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\stb\stb_tilemap_editor.h">
+      <Filter>graphics\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\utf8\utf8.h">
+      <Filter>util\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\utf8\utf8\checked.h">
+      <Filter>util\utf8\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\utf8\utf8\core.h">
+      <Filter>util\utf8\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\utf8\utf8\unchecked.h">
+      <Filter>util\utf8\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\matrix44.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\glfw\glfw3.h">
+      <Filter>graphics\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\glfw\glfw3native.h">
+      <Filter>graphics\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\texture.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\debug_renderer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\label.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\mesh.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\opengl.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\renderer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader_uniform.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader_attribute.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\linear_allocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\memory_manager.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\memory_pool.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\pointer_util.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\pool_allocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\stack_allocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\stl_allocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\allocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\free_list_allocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\smart_ptrs\shared_ptr.h">
+      <Filter>memory\smart_ptrs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\smart_ptrs\ref_count.h">
+      <Filter>memory\smart_ptrs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\defines.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\utils.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\color.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\device.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\entity.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\camera.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\content_manager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\material.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\point_light.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\spot_light.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameplay\orbiting_light.h">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameplay\model.h">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\widget.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\input.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\directional_light.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\post_processing_fbo.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\post_process_effect.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\postprocessing\post_process_bloom.h">
+      <Filter>graphics\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\postprocessing\post_process_gaussian_blur_horizontal.h">
+      <Filter>graphics\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\postprocessing\post_process_gaussian_blur_vertical.h">
+      <Filter>graphics\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\postprocessing\post_process_blend_scene_blur.h">
+      <Filter>graphics\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\texture_cube.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\box_collider.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ray.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\raycast_hit.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\game_id.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\message_types.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\messages.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\move_results.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\server_errors.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\ship_types.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\shot_results.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\client_id.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\collision_types.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\CloudClient.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\CloudCommon.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\CloudServer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\CommandParserInterface.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\ConnectionGraph2.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\ConsoleServer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DataCompressor.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DirectoryDeltaTransfer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DR_SHA1.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_BinarySearchTree.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_BPlusTree.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_BytePool.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_ByteQueue.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_Hash.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_Heap.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_HuffmanEncodingTree.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_LinkedList.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_List.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_Map.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_MemoryPool.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_Multilist.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_OrderedChannelHeap.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_OrderedList.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_Queue.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_QueueLinkedList.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_RangeList.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_Table.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_Tree.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DS_WeightedGraph.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\DynDNS.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\EmailSender.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\EmptyHeader.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\EpochTimeToString.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Export.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\FileList.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\FileListNodeContext.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\FileListTransfer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\FileListTransferCBInterface.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\FileOperations.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\FormatString.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\FullyConnectedMesh2.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Getche.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Gets.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\GetTime.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\gettimeofday.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\GridSectorizer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\HTTPConnection.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\HTTPConnection2.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\IncrementalReadInterface.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\InternalPacket.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Itoa.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Kbhit.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\LinuxStrings.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\LocklessTypes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\LogCommandParser.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\MessageFilter.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\MessageIdentifiers.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\MTUSize.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NativeFeatureIncludes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NativeFeatureIncludesOverrides.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NativeTypes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NatPunchthroughClient.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NatPunchthroughServer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NatTypeDetectionClient.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NatTypeDetectionCommon.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NatTypeDetectionServer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NetworkIDManager.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\NetworkIDObject.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PacketConsoleLogger.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PacketFileLogger.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PacketizedTCP.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PacketLogger.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PacketOutputWindowLogger.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PacketPool.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PacketPriority.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PluginInterface2.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PS3Includes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\PS4Includes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Rackspace.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakAlloca.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakAssert.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakMemoryOverride.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetCommandParser.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetDefines.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetDefinesOverrides.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetSmartPtr.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetSocket.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetSocket2.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetStatistics.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetTime.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetTransport2.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetTypes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakNetVersion.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakPeer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakPeerInterface.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakSleep.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakString.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakThread.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RakWString.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Rand.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RandSync.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\ReadyEvent.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RefCountedObj.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RelayPlugin.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\ReliabilityLayer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\ReplicaEnums.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\ReplicaManager3.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Router2.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\RPC4Plugin.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SecureHandshake.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SendToThread.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SignaledEvent.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SimpleMutex.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SimpleTCPServer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SingleProducerConsumer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SocketDefines.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SocketIncludes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SocketLayer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\StatisticsHistory.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\StringCompressor.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\StringTable.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\SuperFastHash.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\TableSerializer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\TCPInterface.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\TeamBalancer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\TeamManager.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\TelnetTransport.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\ThreadPool.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\ThreadsafePacketLogger.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\TransportInterface.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\TwoWayAuthentication.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\UDPForwarder.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\UDPProxyClient.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\UDPProxyCommon.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\UDPProxyCoordinator.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\UDPProxyServer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\VariableDeltaSerializer.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\VariableListDeltaTracker.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\VariadicSQLParser.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\VitaIncludes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\WindowsIncludes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\WSAStartupSingleton.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\XBox360Includes.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\_FindFirst.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\AutopatcherPatchContext.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\AutopatcherRepositoryInterface.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\Base64Encoder.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\BitStream.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\CCRakNetSlidingWindow.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\CCRakNetUDT.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\raknet\CheckSum.h">
+      <Filter>networking\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\network_manager.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameplay\ship_grid.h">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\postprocessing\post_process_tone_mapping.h">
+      <Filter>graphics\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameplay\ship.h">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\tinyobjloader\tiny_obj_loader.h">
+      <Filter>graphics\tinyobjloader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameplay\game_controller.h">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\graphics\glad\glad.c">
+      <Filter>graphics\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\stb\stb_vorbis.c">
+      <Filter>graphics\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cc" />
+    <ClCompile Include="src\math\vector3.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\renderer.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\mesh.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\label.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\debug_renderer.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\texture.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\matrix44.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_uniform.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_attribute.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\memory_manager.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\memory_pool.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\pointer_util.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\pool_allocator.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\stack_allocator.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\allocator.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\free_list_allocator.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\linear_allocator.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\utils.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\color.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\device.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\entity.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\camera.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\content_manager.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\material.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\point_light.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\spot_light.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplay\orbiting_light.cc">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplay\model.cc">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\widget.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\input.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\directional_light.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\post_processing_fbo.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\post_process_effect.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\postprocessing\post_process_bloom.cc">
+      <Filter>graphics\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\postprocessing\post_process_gaussian_blur_vertical.cc">
+      <Filter>graphics\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\postprocessing\post_process_gaussian_blur_horizontal.cc">
+      <Filter>graphics\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\postprocessing\post_process_blend_scene_blur.cc">
+      <Filter>graphics\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\texture_cube.cc">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\box_collider.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\raycast_hit.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ray.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\network_manager.cc">
+      <Filter>networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplay\ship_grid.cc">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\postprocessing\post_process_tone_mapping.cc">
+      <Filter>graphics\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplay\ship.cc">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\tinyobjloader\tiny_obj_loader.cc">
+      <Filter>graphics\tinyobjloader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplay\game_controller.cc">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
